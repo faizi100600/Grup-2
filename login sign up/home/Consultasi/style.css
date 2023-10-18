@@ -1,0 +1,275 @@
+*{
+    font-family: 'Archivo', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #278689;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+}
+
+.saidebar{
+    background-color:#143c43;
+    width: 270px;
+    height: 950px;
+    padding: 24px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+
+.saidebar .description-header{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+
+}
+
+.saidebar a{
+    text-decoration: none;
+}
+
+.saidebar .header .list-item{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ padding: 12px 10px;
+ border-radius: 8px;
+ height: 90px;
+ box-sizing: border-box;
+}
+
+.saidebar .header .list-item .icon{
+    padding-bottom: 50px;
+    margin-right: 45px;
+}
+
+.saidebar .header{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+margin: 10px 0 22px 0;
+box-sizing: border-box;
+}
+
+.saidebar .main .list-item .description{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.saidebar .main .list-item .icon{
+    margin-right: 15px;
+}
+
+.saidebar .main .list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 5px;
+    width: 212px;
+    box-sizing: border-box;
+}
+
+.saidebar .main .list-item:hover{
+background: #ff9900;
+transition: all ease-in .2s;
+}
+
+
+
+
+footer {
+    height: 300px;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: transparent;
+ } 
+
+ footer p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+   font-weight: bold;
+ }
+
+ footer p2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+ }
+ 
+
+ .sosial-icons {
+    margin: 5px 0px;
+    display: flex;
+    text-align: center;
+ }
+
+ .sosial-icons a {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    background-color: rgb(248, 248, 248);
+    text-decoration: none;
+    border-radius: 50%;
+ }
+
+ .sosial-icons i {
+    font-size: 25px;
+    color: black;
+ }
+
+ .sosial-icons a:hover {
+    background-color: #278689;
+ }
+
+ .sosial-icons i:hover {
+    color: rgb(248, 248, 248);
+ }
+
+ .container-dua{
+    max-width: 1000px;
+    margin: 50px;
+    display: flex;
+    margin-left: 100px;
+    box-sizing: border-box;
+}
+
+.container_tiga{
+    max-width: 100%;
+    display: flex;
+    margin-top: 450px;
+    position: absolute;
+    margin-left: 0px;
+}
+
+.container-dua .layanan h2:hover{
+    color: #ff9900;
+    transition: 2S;
+}
+.container-dua .layanan h4:hover{
+    color: #ff9900;
+    transition: 2S;
+}
+
+.container-dua .layanan:hover{
+    background-color: #3f383871;
+    transition: 2s;
+}
+
+.layanan-dua:hover{
+    background-color: #3f383871;
+    transition: 2S;
+}
+.layanan-dua h2:hover {
+    color: #ff9900;
+    transition: 2s;
+}
+.layanan-dua h4:hover {
+    color: #ff9900;
+    transition: 2s;
+}
+
+.hero img{
+    width: 40%;
+    margin-top: 3px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    background-size:cover ;
+}
+
+.layanan{
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 380px;
+    width: 200px;
+    margin-right: 30px;
+}
+
+
+.layanan-dua{
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 400px;
+    width: 200px;
+    margin-right: 30px;
+}
+.layanan h2,h4{
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.layanan-dua h2,h4{
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.layanan h4 {
+    padding-bottom: 15px;
+    color: #bebebe;
+}
+
+.layanan-dua h4{
+    padding-bottom: 15px;
+    color: #bebebe;
+}
+.layanan h2{
+    color: rgb(216, 216, 216); 
+}
+
+.layanan-dua h2,p{
+    color: rgb(216, 216, 216);
+}
+
+.layanan p{
+    color: rgb(216, 216, 216);
+}
+
+.layanan.Satu { 
+    background-color: rgb(149, 149, 163);
+    border-radius: 5px;
+}
+.layanan-dua{
+    background-color: rgb(149, 149, 163);
+    border-radius: 5px;
+}
+.layanan h2,h4{
+    padding-top: 20px;
+}
+
+.layanan h4 {
+    padding-bottom: 15px;
+    color: rgb(216, 216, 216);
+}
+.layanan-dua h2{
+    color: rgb(216, 216, 216);
+}
+.layanan-dua p{
+    color: rgb(216, 216, 216);
+}
+
+.clear{
+    clear:left;
+}
